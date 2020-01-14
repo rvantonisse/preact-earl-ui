@@ -1,0 +1,23 @@
+{
+  "name": "preact-earl-ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple earl gui made with preact",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvantonisse/preact-earl-ui.git"
+  },
+  "keywords": [
+    "preact"
+  ],
+  "author": "rvantonisse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rvantonisse/preact-earl-ui/issues"
+  },
+  "homepage": "https://github.com/rvantonisse/preact-earl-ui#readme"
+}
