@@ -1,0 +1,9 @@
+.assertion {
+  border: 1px solid #336699;
+  border-radius: 3px;
+  padding: 1em;
+}
+
+.assertion + .assertion {
+  margin-top: 5em;
+}
