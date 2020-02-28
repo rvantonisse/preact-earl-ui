@@ -7,3 +7,10 @@
 .assertion + .assertion {
   margin-top: 5em;
 }
+
+.assertion > header {
+  margin: -1em -1em 0;
+  padding: 0.5em 1em;
+  color: white;
+  background-color: #336699;
+}

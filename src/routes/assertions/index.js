@@ -3,12 +3,13 @@ import { h, createRef } from 'preact';
 
 import data from '../../data/assertions.js';
 import Assertion from '../../components/Assertion';
+import BaseLayout from '../../components/layout/BaseLayout';
 
 const Assertions = () => (
-	<main>
+	<BaseLayout>
 		<h1>Assertions</h1>
 		{ renderAssertions(data) }
-	</main>
+	</BaseLayout>
 );
 
 function renderAssertions(data) {
@@ -21,7 +22,12 @@ function renderAssertions(data) {
 		ref = createRef();
 		assertion = data[i];
 
-		assertions.push(<Assertion ref={ref} props={assertion} />);
+		assertions.push(
+			<Assertion
+				ref={ref}
+				{...assertion}
+			/>
+		);
 	}
 
 	return assertions;
